@@ -9,10 +9,9 @@ CREATE DATABASE indexed_cars;
 
 \c indexed_cars;
 
+\i Automotive-Index/scripts/car_models.sql
 
-
-
-
+\i Automotive-Index/scripts/car_model_data.sql
 
 
 
