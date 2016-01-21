@@ -13,17 +13,20 @@ CREATE DATABASE indexed_cars;
 
 \i Automotive-Index/scripts/car_model_data.sql
 
+\timing
+
 SELECT DISTINCT make_title
 FROM car_models
 WHERE make_code = 'LAM';
-
-\timing
 
 -- this enables the timing thing
 -- it shows you how long it takes for the process to finish
 
 -- DISTINCT make sure there are no duplicates
 
+SELECT DISTINCT make_title
+FROM car_models
+WHERE make_code = 'NISSAN' AND model_code = 'GT-R';
 
 
 
