@@ -40,7 +40,7 @@ CREATE DATABASE indexed_cars;
 -- SELECT count(*)
 -- FROM car_models
 -- WHERE year BETWEEN 2010 AND 2015;
-q
+
 -- --5
 -- SELECT count(*)
 -- FROM car_models
